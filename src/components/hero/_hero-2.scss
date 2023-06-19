@@ -1,0 +1,14 @@
+.hero-2 {
+	background: $background-color url(../images/cover-bg-1.jpg) center;
+	background-size: cover;
+	min-height: 50rem;
+	height: auto;
+	border-radius: 0;
+	width: 100%;
+	color: #fff;
+	padding-top: 1rem;
+	.lead {
+		margin: 2rem auto;
+		color: rgba(255, 255, 255, .75);
+	}
+}

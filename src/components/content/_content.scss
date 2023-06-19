@@ -1,0 +1,71 @@
+.gallery {
+    .cell img {
+        display: block;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cell {
+        width: calc(100% / 4);
+        margin: .5rem;
+        width: calc(25% - 1rem);
+    }
+}
+@media screen and (max-width: 992px) {
+    .gallery {
+        .cell {
+            width: 33.333%;
+            width: calc(33.333% - 1rem);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        .cell {
+            width: 50%;
+            width: calc(50% - 1rem);
+        }
+    }
+}
+
+/* IMPORTS */
+@import '_content-1';
+@import '_content-2';
+@import '_content-3';
+@import '_content-4';
+@import '_content-5';
+@import '_content-6';
+@import '_content-7';
+@import '_content-8';
+@import '_content-9';
+@import '_content-10';
+@import '_content-11';
+@import '_content-12';
+@import '_content-13';
+@import '_content-14';
+@import '_content-15';
+@import '_content-16';
+@import '_content-17';
+@import '_content-18';
+@import '_content-19';
+@import '_content-20';
+@import '_content-21';
+@import '_content-22';
+@import '_content-23';
+@import '_content-24';
+@import '_content-25';
+@import '_content-26';
+@import '_content-27';
+@import '_content-28';
+@import '_content-29';
+@import '_content-30';
+@import '_content-31';
+@import '_content-32';
+@import '_content-33';
+@import '_content-34';
+@import '_content-35';
+@import '_content-36';

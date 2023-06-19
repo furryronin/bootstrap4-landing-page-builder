@@ -1,0 +1,48 @@
+
+.footer-5 {
+	background: $almost-white;
+	width: 100%;
+	color: $dark-gray;
+	padding-top: 4rem;
+	padding-bottom: .5rem;
+	.container-fluid {
+		padding: 0;
+	}
+	.divider {
+		width: 100%;
+		height: .1rem;
+		margin: 2rem 0 1.5rem 0;
+	}
+	ul.nav-footer {
+		float: left!important;
+		padding: 0;
+		width: 100%;
+		li {
+			display: block;
+			float: left;
+			margin-top: .5rem;
+			width: 100%;
+		}
+		.nav-link {
+			padding: 0;
+			width: 100%;
+		}
+	}
+	.copyright {
+		color: $medium-gray;
+	}
+	.social li a {
+		background: none;
+		color: $medium-gray;
+		border: none;
+	}
+	.social li a:hover {
+		color: $primary-color;
+	}
+	@media screen and (max-width: 768px) {
+		.nav-footer {
+			width: auto;
+			display: inline;
+		}
+	}
+}

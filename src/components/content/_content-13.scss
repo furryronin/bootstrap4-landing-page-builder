@@ -1,0 +1,18 @@
+.content-13 {
+	padding: 5rem 0 0 0;
+	.container-fluid {
+	  padding-right: 0;
+	  padding-left: 0;
+	}
+	h3 {
+		margin-bottom: 0;
+	}
+	img {
+		width: 100%;
+	}
+	.item {
+		background: $background-color center;
+		background-size: cover;
+		min-height: 20rem;
+	}
+}

@@ -1,0 +1,30 @@
+.content-10 {
+	background: $background-color;
+	padding: 5rem 0;
+	h2 {
+		margin-top: 2rem;
+		color: #fff;
+	}
+	p.lead {
+		color: $light-gray;
+	}
+	.col-feature {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		h4 {
+			color: #fff;
+		}
+		p {
+			color: $light-gray;
+		}
+		.rounded-circle {
+			margin: 0 auto;
+			margin-bottom: 2rem;
+			width: 6rem;
+			height: 6rem;
+			background: none;
+			border: .15rem solid $medium-gray;
+			color: #fff;
+		}
+	}
+}

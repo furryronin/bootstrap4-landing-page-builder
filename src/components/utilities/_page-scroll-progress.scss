@@ -1,0 +1,13 @@
+.page-scroll-progress {
+   background-color: transparent;
+   display: block;
+
+   span.progress-bar {
+      background-color: $accent-color;
+      height: 10px;
+      width: 0%;
+      display: block;
+      @include transition(all,0.3s,ease);
+    }
+
+ }

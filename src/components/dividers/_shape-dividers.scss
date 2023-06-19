@@ -1,0 +1,153 @@
+/* Global for dividers */
+.dividers {
+    .shape-divider-holder {
+        overflow: hidden;
+        &.bottom {
+            transform: rotate(180deg);
+        }
+    
+        svg {
+            position: relative;
+            
+            width: calc(152% + 1.3px);
+            height: 127px;
+            transform: rotateY(180deg);
+        }
+    
+        fill: #fff;
+    
+        &.primary-fill{
+            fill: $primary-background-color;
+        }
+        &.secondary-fill {
+            fill: $secondary-background-color;
+        }
+        &.tertiary-fill {
+            fill: $tertiary-background-color;
+        }
+        &.accent-fill {
+            fill: $accent-background-color;
+        }
+    
+        &.shape-divider-1 {
+            svg.shape-divider-1 {
+                display: block;
+            }
+            svg.shape-divider-2 {
+                display: none;
+            }
+            svg.shape-divider-3 {
+                display: none;
+            }
+            svg.shape-divider-4 {
+                display: none;
+            }
+            svg.shape-divider-5 {
+                display: none;
+            }
+            svg.shape-divider-6 {
+                display: none;
+            }
+        }
+        &.shape-divider-2 {
+            svg.shape-divider-1 {
+                display: none;
+            }
+            svg.shape-divider-2 {
+                display: block;
+            }
+            svg.shape-divider-3 {
+                display: none;
+            }
+            svg.shape-divider-4 {
+                display: none;
+            }
+            svg.shape-divider-5 {
+                display: none;
+            }
+            svg.shape-divider-6 {
+                display: none;
+            }
+        }
+        &.shape-divider-3 {
+            svg.shape-divider-1 {
+                display: none;
+            }
+            svg.shape-divider-2 {
+                display: none;
+            }
+            svg.shape-divider-3 {
+                display: block;
+            }
+            svg.shape-divider-4 {
+                display: none;
+            }
+            svg.shape-divider-5 {
+                display: none;
+            }
+            svg.shape-divider-6 {
+                display: none;
+            }
+        }
+        &.shape-divider-4 {
+            svg.shape-divider-1 {
+                display: none;
+            }
+            svg.shape-divider-2 {
+                display: none;
+            }
+            svg.shape-divider-3 {
+                display: none;
+            }
+            svg.shape-divider-4 {
+                display: block;
+            }
+            svg.shape-divider-5 {
+                display: none;
+            }
+            svg.shape-divider-6 {
+                display: none;
+            }
+        }
+        &.shape-divider-5 {
+            svg.shape-divider-1 {
+                display: none;
+            }
+            svg.shape-divider-2 {
+                display: none;
+            }
+            svg.shape-divider-3 {
+                display: none;
+            }
+            svg.shape-divider-4 {
+                display: none;
+            }
+            svg.shape-divider-5 {
+                display: block;
+            }
+            svg.shape-divider-6 {
+                display: none;
+            }
+        }
+        &.shape-divider-6 {
+            svg.shape-divider-1 {
+                display: none;
+            }
+            svg.shape-divider-2 {
+                display: none;
+            }
+            svg.shape-divider-3 {
+                display: none;
+            }
+            svg.shape-divider-4 {
+                display: none;
+            }
+            svg.shape-divider-5 {
+                display: none;
+            }
+            svg.shape-divider-6 {
+                display: block;
+            }
+        }
+    }
+}

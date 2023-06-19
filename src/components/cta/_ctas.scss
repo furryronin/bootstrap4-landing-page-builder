@@ -1,0 +1,31 @@
+.cta {
+	form.subscribe {
+		max-width: 40rem;
+		margin: 0 auto;
+	}
+	.btn {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.cta {
+		h1, h2 {
+			font-size: 2.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+	.btn-lg {
+		font-size: 0.8rem!important;
+		padding: 1rem 1.5rem;
+	}
+}
+/* IMPORTS */
+@import '_cta-1';
+@import '_cta-2';
+@import '_cta-3';
+@import '_cta-4';
+@import '_cta-5';
+

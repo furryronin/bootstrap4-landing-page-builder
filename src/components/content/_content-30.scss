@@ -1,0 +1,43 @@
+.content-30 {
+	padding: 5rem 0;
+	h3 {
+		margin-bottom: 0;
+	}
+	.col-team {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		img {
+			margin: 0;
+		}
+		figure {
+			position: relative;
+			display: inline-block;
+			margin-bottom: 1.5rem;
+		}
+		figcaption {
+			@include border-radius;
+			display: none;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			background-color: rgba(0,0,0,.5);
+			color: #fff;
+		}
+		figure:hover figcaption {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.social li a {
+			border: none!important;
+			background: none!important;
+			color: #fff!important;
+			font-size: 1.6rem;
+		}
+		.social li a:hover {
+			color: $primary-color!important;
+		}
+	}
+}

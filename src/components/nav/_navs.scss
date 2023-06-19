@@ -1,0 +1,47 @@
+/* ##################### */
+/* MAV CLASSES */
+/* ##################### */
+.navbar-custom {
+	background: transparent;
+}
+
+/* Global Navs */
+a.navbar-brand, a.logo {
+	font-family: $headline-font;
+	color: #fff!important;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+a.logo:hover, a.logo:active, a.logo:focus {
+	text-decoration: none;
+}
+
+li.nav-item {
+	.btn {
+		margin-top: .2rem;
+		margin-left: .4rem;
+	}
+	.btn-white {
+		color: $dark-gray;
+	}
+}
+
+/* Smart scroll - show/hide on scroll */
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    transition: all 0.2s ease-in-out;
+  }
+  .scrolled-down{
+     transform:translateY(-100%); transition: all 0.3s ease-in-out;
+     background-color: rgba(48,48,48,0.0);
+  }
+  .scrolled-up{
+     transform:translateY(0); transition: all 0.3s ease-in-out;
+     background-color: rgba(48,48,48,0.6);
+  }

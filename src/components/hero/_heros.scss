@@ -1,0 +1,31 @@
+.hero {
+    .hero-container {
+        display: table;
+        height: 100%;
+        min-height: 44rem;
+        margin: 0 auto;
+    }
+    .hero-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    h1 {
+        font-weight: 200;
+    }
+}
+@media screen and (max-width: 420px) {
+	.hero {
+        .btn-lg {
+            font-size: 0.8rem!important;
+            padding: 1rem 1.5rem;
+        }
+	}
+}
+/* IMPORTS */
+@import '_hero-1';
+@import '_hero-2';
+@import '_hero-3';
+@import '_hero-4';
+@import '_hero-5';
+@import '_hero-6';
+@import '_hero-7';

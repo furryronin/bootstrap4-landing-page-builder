@@ -1,0 +1,60 @@
+{
+  "name": "bootstrap4-landing-page-builder",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 UI kit for rapidly building landing pages",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://furryronin@bitbucket.org/furryronin/project_bootstrap_wordpress.git"
+  },
+  "author": "http://whoisgarethhogan.co.uk",
+  "contributors": [
+    "Gareth Hogan (http://whoisgarethhogan.co.uk)"
+  ],
+  "license": "MIT",
+  "homepage": "http://whoisgarethhogan.co.uk",
+  "dependencies": {
+    "@cedx/gulp-php-minify": "^10.1.0",
+    "aos": "^2.3.4",
+    "autoprefixer": "^9.3.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bootstrap": "4.1.3",
+    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.7",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-cli": "2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-deporder": "^1.1.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.2.0",
+    "jquery": "1.12.4",
+    "jshint": "^2.10.1",
+    "jshint-stylish": "^2.2.1",
+    "list-directories": "^1.1.0",
+    "popper.js": "^1.14.7",
+    "postcss-assets": "^5.0.0",
+    "rellax": "^1.8.0"
+  }
+}

@@ -1,0 +1,16 @@
+.footer-2 {
+	background: $background-color;
+	min-height: 5rem;
+	width: 100%;
+	color: #fff;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+	a.navbar-brand {
+		color: #fff!important;
+	}
+	.nav-footer {
+		.nav-link {
+			color: $lighter-gray;
+		}
+	}
+}

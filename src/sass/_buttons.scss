@@ -1,0 +1,112 @@
+/* ##################### */
+/* BUTTONS */
+/* ##################### */
+
+//Custom Button Styles
+
+.btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
+	@include custom-button;
+}
+
+.btn-outline-primary, .btn-outline-secondary, .btn-outline-white, .btn-outline-success, .btn-outline-info, .btn-outline-warning, .btn-outline-danger {
+	border-width: 0.15rem;
+}
+
+.btn-lg {
+	padding: 1.1rem 2.5rem;
+	font-size: .9rem;
+}
+
+//Primary Button
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+	background-color: $primary-color;
+	border-color: $primary-color;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+	background-color: $primary-color-hover;
+	border-color: $primary-color-hover;
+}
+
+.btn-outline-primary, .btn-outline-primary:visited {
+	color: $primary-color;
+	border-color: $primary-color;
+	background: none;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+	background-color: $primary-color;
+	border-color: $primary-color;
+	color: #fff;
+}
+
+//Secondary Button
+
+.btn-secondary {
+ 	border-color: $medium-gray;
+ 	background-color: $medium-gray;
+ 	color: #fff;
+ }
+ 
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+		border-color: $dark-gray;
+		background-color: $dark-gray;
+		color: #fff;
+	}
+
+.btn-outline-secondary, .btn-outline-secondary:visited {
+	color: $medium-gray;
+	border-color: $medium-gray;
+	background: none;
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active {
+	border-color: $medium-gray;
+	background: $medium-gray;
+	color: #fff;
+}
+
+//White Button
+
+.btn-white {
+ 	border-color: #fff;
+ 	background-color: #fff;
+ 	color: $dark-gray;
+ }
+ 
+.btn-white:hover, .btn-white:focus, .btn-white:active {
+		border-color: $lighter-gray;
+		background-color: $lighter-gray;
+		color: $dark-gray;
+	}
+
+.btn-outline-white, .btn-outline-white:visited {
+	background: none;
+	color: #fff;
+	border-color: #fff;
+}
+.btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active {
+	color: $dark-gray;
+	background: #fff;
+}
+
+.link-white, link-white:visited {
+	@include custom-button;
+ 	border: 0;
+ 	color: #fff;
+ }
+ .link-white:hover, .link-white:focus, .link-white:active {
+ 	color: $lighter-gray!important;
+ }
+
+ 
+ .btn-accent {
+	border-color: $accent-color-hover;
+	background-color: $accent-color;
+	color: #fff;
+}
+
+.btn-accent:hover, .btn-accent:focus, .btn-accent:active {
+	   border-color: $accent-color-hover;
+	   background-color: $accent-color-hover;
+	   color: #fff;
+   }

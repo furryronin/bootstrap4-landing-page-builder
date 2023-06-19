@@ -1,0 +1,31 @@
+.content-26 {
+	padding: 5rem 0;
+
+	.container-fluid {
+	  padding-right: 0;
+	  padding-left: 0;
+	  .scrolling-div {
+		  position: relative;
+		  min-height: 500px;
+	  }
+	}
+	h3 {
+		margin-bottom: 0;
+	}
+	img {
+		width: 100%;
+		height: 150px;
+
+		&.left-to-right-parallax {
+			position: absolute;
+			top: 190px;
+			left: 0;
+		}
+		&.right-to-left-parallax {
+			position: absolute;
+			top: 0px;
+			left: 0;
+		}
+	}
+
+}

@@ -1,0 +1,26 @@
+.hero-4 {
+	background: $background-color url(../images/cover-bg-4.jpg) center;
+	background-size: cover;
+	min-height: 50rem;
+	height: auto;
+	border-radius: 0;
+	width: 100%;
+	color: #fff;
+	padding-top: 1rem;
+	.lead {
+		margin: 2rem auto;
+		color: rgba(255, 255, 255, .75);
+		font-family: $serif-font;
+		font-style: italic;
+	}
+	.form-control-custom {
+		border: none;
+		background: rgba(255, 255, 255, .2);
+		color: #fff;
+	}
+	.form-control-custom:focus {
+		border: none;
+		background: rgba(255, 255, 255, .3);
+		color: #fff;
+	}
+}

@@ -1,0 +1,25 @@
+.content-15 {
+	background: $almost-white;
+	padding: 5rem 0;
+	.container-fluid {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.box {
+		background: #fff;
+		box-shadow: 0 .2rem 2rem rgba(0,0,0,.05);
+		padding: 0rem;
+		padding-bottom: 1rem;
+		margin-bottom: 0rem;
+		@include border-radius;
+	}
+	.col-gallery {
+		margin-top: 2rem;
+		margin-bottom: 0rem;
+		img {
+			width: 100%;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+/* ##################### */
+/* FORMS */
+/* ##################### */
+.form-control-custom {
+	border: .1rem solid $lighter-gray;
+	width: 100%;
+	padding: 1rem;
+	font-size: .9rem;
+	color: $medium-gray;
+	@include border-radius;
+}
+
+.form-control-custom:focus {
+	border: .1rem solid $primary-color;
+	outline: none;
+}

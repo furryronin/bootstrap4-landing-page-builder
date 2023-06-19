@@ -1,0 +1,57 @@
+.content-16 {
+	padding: 5rem 0;
+	.carousel-item {
+		margin-bottom: 180px;//Caption height
+		img {
+			width: 100%;
+		}
+		.carousel-caption {
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			padding-top: 2.5rem;
+			padding-bottom: 2.5rem;
+			text-align: center;
+			background: none;
+			height: 180px; //Caption height
+			bottom: -180px; //Caption height
+		}
+		h3 {
+			color: $dark-gray;
+		}
+		p {
+			color: $medium-gray;
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+	.carousel-inner {
+		overflow: hidden;
+	}
+	.carousel-control-prev,
+	.carousel-control-next {
+		margin-top: -180px; //Caption height
+	}
+	
+	.carousel-indicators {
+		bottom: 200px; //Caption height +20px
+	}
+	
+	@media screen and (max-width: 768px) {
+		.carousel-item {
+			margin-bottom: 0;
+		}
+		.carousel-caption {
+			display: none;
+		}
+		.carousel-control-prev,
+		.carousel-control-next {
+			margin-top: 0; 
+		}
+		
+		.carousel-indicators {
+			bottom: 20px; 
+		}
+	}
+}

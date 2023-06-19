@@ -1,0 +1,73 @@
+.content-21 {
+	padding: 5rem 0 4rem 0;
+	background: $almost-white;
+	.col-pricing-table {
+		background: #fff;
+		padding: 0;
+		padding-bottom: 2rem;
+		@include border-radius;
+		.plan-header {
+			background: $dark-gray;
+			color: #fff;
+			@include border-radius;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			width: 100%;
+			margin: 0;
+			padding: 1.2rem 0;
+		}
+		h3.plan-type {
+			font-weight: 300;
+			font-size: 1.4rem;
+			margin: 0;
+		}
+		h2.plan-price {
+			color: $dark-gray;
+			font-size: 3.5rem;
+			margin: 0;
+			padding: 1rem 0;
+			font-weight: 200;
+			width: 100%;
+			small {
+				font-weight: 200;
+				font-size: 1.2rem;
+			}
+		}
+		ul.plan-feature-list {
+			list-style: none;
+			padding: 1rem 2rem;
+			margin-bottom: 0;
+			border-bottom: .1rem solid $lighter-gray;
+			li {
+				color: $medium-gray;
+				margin: .5rem 0;
+			}
+		}
+		p.emphasis {
+			margin: .2rem 0 0 0;
+			color: $medium-gray;
+		}
+	}
+	.plan-focus {
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+	}
+	.col-pricing-table.cover-bg-primary, .col-pricing-table.cover-bg-secondary, .col-pricing-table.cover-bg-info, .col-pricing-table.cover-bg-success, .col-pricing-table.cover-bg-warning, .col-pricing-table.cover-bg-danger {
+		.plan-header {
+			border-bottom: .1rem solid rgba(255, 255, 255, .2);
+		}
+		h3.plan-type {
+			color: #fff;
+		}
+		p.emphasis {
+			color: rgba(255, 255, 255, .8);
+		}
+		h2.plan-price {
+			color: #fff;
+		}
+		ul.plan-feature-list {
+			li {
+				color: $almost-white;
+			}
+		}
+	}
+}

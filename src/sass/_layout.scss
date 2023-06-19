@@ -1,0 +1,24 @@
+/* ##################### */
+/* LAYOUT CLASSES AND FIXES */
+/* ##################### */
+
+/* removes padding on fluid containers for proper edge to edge on no-gutter sections */
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.justify-center {
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.constrain-width {
+	max-width: 45rem;
+	margin: 0 auto;
+}
+.inner {
+	padding: 30px;
+}

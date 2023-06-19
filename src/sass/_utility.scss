@@ -1,0 +1,26 @@
+/* ##################### */
+/* UTILITY CLASSES */
+/* ##################### */
+.divider {
+	display: block;
+	width: 6rem;
+	height: 0.3rem;
+	background-color: $lighter-gray;
+	margin: 2rem auto;
+}
+.emphasis {
+	font-family: Georgia, Times, 'Times New Roman';
+	font-style: italic;
+	color: $primary-color;
+}
+.rounded-corners {
+	@include border-radius;
+}
+.pill-btn {
+	border-radius: 499rem!important;
+}
+//responsive videos override other styles to make responsive
+.responsive-vid {
+	width: 100%    !important;
+	height: auto   !important;
+}

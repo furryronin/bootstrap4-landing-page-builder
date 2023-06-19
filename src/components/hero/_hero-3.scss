@@ -1,0 +1,28 @@
+.hero-3 {
+	/* background: $almost-white; */
+	min-height: 40rem;
+	height: auto;
+	border-radius: 0;
+	width: 100%;
+	color: $dark-gray;
+	padding-top: 1rem;
+	a.navbar-brand {
+		color: #000!important;
+	}
+	h1 {
+		color: #000;
+	}
+	.lead {
+		margin: 2rem auto;
+		color: $medium-gray;
+	}
+	.col-feature {
+		padding-top: 0;
+		padding-bottom: 1rem;
+		padding-left: 0;
+		em {
+			margin-bottom: 1rem;
+			color: $primary-color;
+		}
+	}
+}

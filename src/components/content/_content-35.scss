@@ -1,0 +1,19 @@
+.content-35 {
+	padding: 8rem 0;
+	background: $background-color url(../images/cover-bg-3.jpg) center;
+	background-size: cover;
+	.quote-text {
+		font-size: 1.8rem;
+		font-weight: 300;
+		font-style: italic;
+		color: #fff;
+	}
+	.quote-icon {
+		color: rgba(255, 255, 255, .1);
+	}
+	.quote-author {
+		font-style: italic;
+		font-family: $serif-font;
+		color: rgba(255, 255, 255, .8);
+	}
+}

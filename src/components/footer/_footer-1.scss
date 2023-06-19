@@ -1,0 +1,19 @@
+.footer-1 {
+	background: $almost-white;
+	min-height: 5rem;
+	width: 100%;
+	color: $dark-gray;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+	a.navbar-brand {
+		color: #000!important;
+	}
+	.nav-footer {
+		float: left;
+		padding: 0;
+	}
+	.social li a {
+		background: none;
+		border: none;
+	}
+}

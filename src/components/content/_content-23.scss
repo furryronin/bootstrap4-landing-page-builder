@@ -1,0 +1,18 @@
+.content-23 {
+	padding: 5rem 0;
+	h2 {
+		margin-top: 2rem;
+	}
+	.col-feature:first-of-type {
+		margin-top: 2rem;
+	}
+	.col-feature {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		padding-left: 0;
+		em {
+			margin-bottom: 1rem;
+			color: $primary-color;
+		}
+	}
+}

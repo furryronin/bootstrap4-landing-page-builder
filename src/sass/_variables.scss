@@ -1,0 +1,53 @@
+//SASS VARIABLES TO OVERIDE BOOTSTRAP STYLES
+
+//colours
+$primary-color: #59a0d7;
+$primary-color-hover: #4089c1;
+
+$secondary-color: #59a0d7;
+$secondary-color-hover: #4089c1;
+
+$tertiary-color: #59a0d7;
+$tertiary-color-hover: #4089c1;
+
+$accent-color: rgba(254,1,154,1.00);
+$accent-color-hover: rgba(254,1,154,0.8);
+
+$link-color: #59a0d7; 
+$link-color-hover: #4089c1;
+
+$border-color: #59a0d7;
+
+//forms
+$input-border-active: #59a0d7;
+$input-border-disabled: #46484a;
+$input-border-error: red;
+
+//backgrounds
+$primary-background-color: #ffffff;
+$secondary-background-color: #a0a0a0;
+$tertiary-background-color: #46484a;
+$accent-background-color: #4089c1;
+
+$background-color: #2b2d34;
+$almost-white: #f7f7f8;
+$lighter-gray: #dfe1e5;
+$light-gray: #a0a0a0;
+$medium-gray: #696b6e;
+$dark-gray: #46484a;
+$black: #000000;
+
+//typography
+$base-font-size: 16px;
+$base-mobile-font-size: 12px;
+$max-font-size: 24px;
+
+$main-font: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$headline-font: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$serif-font: 'Droid Serif', Times, Georgia, serif;
+
+//breaks
+$min_width: 320px;
+$max_width: 1200px;
+
+

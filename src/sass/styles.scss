@@ -1,0 +1,35 @@
+/*
+	Theme Name: Bootstrap 4 landing page kit
+	Theme URI: http://ghdev.co.uk/bootstrap-4-landing-page-kit
+	Description: A selection of Bootstrap 4 components for rapidly deploying landing pages. 
+	Version: 1.0.2
+	Author: Gareth Hogan (@furryronin)
+	Author URI: http://whoisgarethhogan.co.uk
+	Tags: HTML5, CSS3, BS4, UI Kit
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/* UTILITIES*/
+@import '_variables.scss';
+@import '_mixins.scss';
+
+/* GLOBAL OVERIDES */
+@import '_global.scss';
+@import '_layout.scss';
+@import '_utility.scss';
+@import '_forms.scss';
+@import '_buttons.scss';
+@import '_backgrounds.scss';
+@import '_gradientoverlays.scss';
+
+/* COMPONENTS */
+@import '../components/nav/_navs.scss';
+@import '../components/dividers/_shape-dividers.scss';
+@import '../components/contact/_contacts.scss';
+@import '../components/content/_content.scss';
+@import '../components/cta/_ctas.scss';
+@import '../components/footer/_footers.scss';
+@import '../components/hero/_heros.scss';
+@import '../components/utilities/_utilities.scss';
